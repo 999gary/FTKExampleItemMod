@@ -110,6 +110,14 @@ namespace ExampleItemMod
                 //Update the dictionary.
                 TableManager.Instance.Get<FTK_itemsDB>().CheckAndMakeIndex();
             }
+            if (TableManager.Instance.Get<FTK_weaponStats2DB>().GetEntryByStringID("bladeOPTrash") == null)
+            {
+                //Add our item to the array.
+                TableManager.Instance.Get<FTK_weaponStats2DB>().AddEntry("bladeOPTrash");
+
+                //Update the dictionary.
+                TableManager.Instance.Get<FTK_weaponStats2DB>().CheckAndMakeIndex();
+            }
             //Return our enum if ID matches ours.
             if (_id == "bladeOPTrash")
             {
