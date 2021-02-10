@@ -1,6 +1,10 @@
 # For the King example item mod.
 This is an example item mod for the game For the King. It requires [MelonLoader](https://melonwiki.xyz/#/)
 
+A major bug has been found, currently working on fixing it, for now mod releases are removed.
+
+# MODS ARE NOT OFFICIALLY SUPPORTED BY THIS GAME, DO NOT REPORT BUGS TO THE OFFICIAL DEVELOPERS IF YOU HAVE A MODDED CLIENT!!!!!!!!!!
+
 ## Installation
 
 1. Install the latest version of [MelonLoader](https://melonwiki.xyz/#/).
